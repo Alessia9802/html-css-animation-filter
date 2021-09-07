@@ -121,12 +121,11 @@
   animation-name: ruota1;
   transition-duration: 1000ms;
   transition-property: transform;
-  animation-iteration-count: 3;
-  transition: all 1.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .ex-11-icon:hover {
-  transform: rotate(360deg);
+  transform: rotate(270deg);
 }
 
 .ex-12-button,
