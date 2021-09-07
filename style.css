@@ -60,8 +60,7 @@
   height: 1px;
 }
 
-.ex-6-img,
-.ex-8-img {
+.ex-6-img {
   width: 500px;
   transition: all;
 }
@@ -77,6 +76,16 @@
 
 .ex-7-img:hover {
   filter: grayscale(100%);
+}
+
+.ex-8-img {
+  width: 500px;
+  transition: all 1.5s ease 0s;
+}
+
+.ex-8-img:hover {
+  border-radius: 10px;
+  filter: brightness(50%);
 }
 
 .ex-9-img {
