@@ -61,13 +61,21 @@
 }
 
 .ex-6-img,
-.ex-7-img,
 .ex-8-img {
   width: 500px;
-  transition: all ease 0s;
+  transition: all;
 }
 
 .ex-6-img:hover {
+  filter: grayscale(100%);
+}
+
+.ex-7-img {
+  width: 500px;
+  transition: all 1.5s ease 0s;
+}
+
+.ex-7-img:hover {
   filter: grayscale(100%);
 }
 
