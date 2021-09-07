@@ -121,7 +121,7 @@
   animation-name: ruota1;
   transition-duration: 1000ms;
   transition-property: transform;
-  animation-iteration-count: 3.4;
+  animation-iteration-count: 3;
   transition: all 1.5s ease 0s;
 }
 
@@ -163,17 +163,6 @@
 }
 
 .ex-12-button {
-  position: relative;
-  display: block;
-  width: 200px;
-  height: 70px;
-  text-transform: uppercase;
-  border: 3px solid #1b3c59;
-  color: #1b3c59;
-  font-size: 20px;
-  line-height: 70px;
-  text-align: center;
-  text-decoration: none;
   animation-name: animate;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -223,5 +212,21 @@
   100% {
     left: 0px;
     top: 0px;
+  }
+}
+
+.ex-13-button {
+  animation-name: last;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes last {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
